@@ -4,7 +4,7 @@ import type { Config } from '@sveltejs/adapter-vercel';
 
 export const config: Config = {
 	memory: 512,
-	split: true
+	split: true // not needed
 };
 
 export const GET = (() => {
